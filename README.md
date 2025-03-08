@@ -52,6 +52,7 @@ jogo-da-forca/
 │   └── css/              # Estilos do jogo
 │       └── style.css     # Estilo do jogo
 └── README.md             # Documentação do projeto
+```
 
 ## Agradecimentos
 
