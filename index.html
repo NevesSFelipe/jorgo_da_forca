@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>FSN | Jogo da Forca</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+
+    <div class="container mt-3 text-center">
+
+        <div class="row">
+
+            <div class="col-sm-2">
+
+                <div id="forca">
+                    <div id="forcaBase"></div>
+                    <div id="forcaPoste"></div>
+                    <div id="forcaTrave"></div>
+                    <div id="cabeca" class="parte"></div>
+                    <div id="corpo" class="parte"></div>
+                    <div id="bracoEsquerdo" class="parte"></div>
+                    <div id="bracoDireito" class="parte"></div>
+                    <div id="pernaEsquerda" class="parte"></div>
+                    <div id="pernaDireita" class="parte"></div>
+                </div>
+
+            </div>
+
+            <div class="col-sm-10">
+
+                <div class="titulo mb-3">
+                    <h1>Jogo da Forca</h1>
+                </div>
+        
+                <div class="input">
+                    <input type="text" maxlength="1" id="letraDigitada" class="text-center w-100">
+                </div>
+        
+                <div class="palavraSorteada mt-4">
+        
+                    <div id="divPalavraSorteada"></div>
+        
+                    <p class="mt-4">Dica: <span id="dica"></span></p>
+        
+                </div>
+        
+                <div id="letrasDigitadas"></div>
+        
+                <div class="acoesJogo mt-3">
+                    <button id="btnReiniciarJogo" class="btn btn-info">Novo Jogo</button>
+                </div>
+
+            </div>
+
+        </div>
+          
+    </div>
+      
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+
+  </body>
+</html>
